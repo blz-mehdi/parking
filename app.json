@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Parking",
+    "slug": "parking",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mehdiblzorg.parking"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mehdiblzorg.parking"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3e62101-92dc-4e6b-bc72-eb4a170be04b"
+      }
+    },
+    "owner": "mehdi-blz-org",
+    "updates": {
+      "url": "https://u.expo.dev/e3e62101-92dc-4e6b-bc72-eb4a170be04b"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
